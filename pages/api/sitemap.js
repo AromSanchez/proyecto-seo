@@ -1,6 +1,6 @@
 import { getAllPosts } from "../../data/posts";
 
-const BASE_URL = "https://mi-sitio.com";
+const BASE_URL = "https://proyecto-seo.netlify.app";
 
 export default async function handler(req, res) {
   const staticUrls = ["/", "/blog", "/contacto"];
